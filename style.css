@@ -1,0 +1,238 @@
+﻿@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+* {	
+	margin: 0 0 0 0;
+	text-decoration: none;
+}
+body {
+	font-family: 'PT Sans', sans-serif;
+	overflow-x: hidden;
+}
+.top {
+	background: url('images/bg.png');
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+.main {
+	background: #fff;
+	display: inline;
+	height: 800px;
+}
+.what:nth-child(2n) {
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+	width: 100%;
+}
+.what {
+	background: #231e27;
+	clip-path: polygon(0% 5%, 98% 0%, 100% 95%, 0% 98%);
+	height: 600px;
+	margin: 12vh auto;
+	width: 80vw;
+}
+.what_img img {
+	float: right;
+	margin: 120px 0 120px 0;
+	width: 30%;
+}
+.what_manga {
+	background: #231e27;
+	clip-path: polygon(0% 5%, 98% 0%, 100% 95%, 0% 98%);
+	height: auto;
+	margin: 0 auto;
+	width: 80vw;
+	overflow: hidden;
+}
+.what_mangaContent {
+	color: #fff;
+	float: left;
+	width: 40%;
+	padding: 32px;
+	display: block;
+}
+.what_manga_img img {
+	height: 50%;
+}
+.whatContent {	
+	color: #fff;
+	float: left;
+	line-height: 24px;
+	padding: 128px 0 0 72px;
+	width: 50%;
+}
+h6 {
+	font-size: 48px;
+	padding: 24px;
+	padding-left: 0;
+}
+.list {
+	margin: 0 auto;
+	width: 872px;
+}
+.item {
+	background: #fff;
+	float: left;
+	height: 202px;
+	margin: 8px;
+	width: 202px;
+}
+.item:nth-child(1) {
+	float: left;
+	height: 420px;
+	width: 420px;
+}
+.read {
+	background: #fff;
+	border-radius: 4px;
+	color: #000;
+	margin-top: 64px;
+	position: relative;
+	text-align: center;
+	transition: 1s cubic-bezier(.18,.89,.32,1.28);
+	float: right;
+}
+.next {
+	background: #fff;
+	border-radius: 100%;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	cursor: pointer;
+	float: right;
+	height: 64px;
+	position: relative;
+	right: 45px;
+	transition: 1s ease;
+	top: 30px;
+}
+.title {
+	color: #fff;
+	font-size: 32px;
+	padding-bottom: 32px;
+	padding-top: 48px;
+	text-align: center;
+}
+.next svg {
+	padding: 12px;
+}
+.next:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	background: #f2f2f2;
+}
+
+.read:hover {
+	cursor: pointer;
+	margin-top: 60px; 
+}
+.read a {
+	color: #000;
+	padding: 12px 24px 12px 24px;
+	display: block;
+}
+.item_new {
+	background: #fff;
+	display: inline-block;
+	height: 380px;
+	margin-left: 24px;
+	margin-top: 24px;
+	overflow: hidden;
+	width: 25%;
+}
+.list_new {
+	text-align: center;
+}
+.item_new img {
+	margin-top: 62px;
+	transform: scale(2,2);
+	width: 100%;
+}
+.titleNew {
+	margin-top: 96px;
+	padding: 0 24px 0 24px;
+}
+.item img {
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+}
+.heroName {
+	color: #fff;
+	margin-top: -48px;
+	padding: 12px 0 12px 8px;
+	position: relative;
+	background: #000000b5;
+}
+.info {
+	background: #221b23;
+	clip-path: polygon(0% 5%, 98% 0%, 100% 95%, 0% 98%);
+	color: #fff;
+	margin: 124px auto;
+	padding: 24px;
+	text-align: center;
+	width: 50%;
+}
+.top {
+	height: 800px;
+	position: relative;
+	width: 100%;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
+}
+.top a {
+	color: white;
+	font-size: 18px;
+	margin: 0 4px;
+}
+.top img {
+	margin: 25px;
+	position: relative;
+	width: 300px;
+}
+.menu {
+	display: inline-block;
+	float: right;
+	margin: 0 auto;
+	padding: 64px;
+	position: relative;
+}
+.menu a:hover {
+	text-decoration: underline;
+}
+#back-top {
+	bottom: 0;
+	position: fixed;
+	right: 0;
+}
+#back-top a {
+	background: #fff;
+	border-radius: 100%;
+	color: #000;
+	display: block;
+	margin: 12px;
+	padding: 24px 12px 24px 12px;
+	text-align: center;
+	text-decoration: none;
+	width: 48px;
+	border: 4px #231e27 solid;
+}
+.footer {
+	background: #221b23;
+	height: auto;
+}
+.what_manga_img {width: 50%;display: inline-flex;float: left;flex-direction: column;}
+.about {
+	color: #fff;
+	text-align: center;
+	display: inline-flex;
+}
+.manga_item {
+	display: none;
+}
+.footer img {
+	height: 120px;
+	margin: 40px;
+	float: left;
+}
+.about span{
+	
+	float: left;
+	padding: 72px;
+	padding-top: 96px;
+}
